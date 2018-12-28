@@ -1,0 +1,22 @@
+1. pkg install update
+ 
+2. pkg install upgrade 
+
+3. pkg install php 
+
+4. pkg install nano
+
+5. pkg install git 
+
+6. git clone https://github.com/phpadmin1/proveeu.git 
+7. cd proveeu
+
+8. nano config.php   - here you need to find and get access token first using SSL App
+	then replace the old  token to your copied token from SSL
+	Look like this 
+
+	"cdc8a9b1-6dc6-48d8-832b-934d364c2bff",
+
+click CTRL + X
+
+9.  php bot.php
